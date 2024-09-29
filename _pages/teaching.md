@@ -12,10 +12,14 @@ Teaching Assistant for [Dr. Allard Jongman](https://linguistics.ku.edu/people/al
 
 **Language Courses**
 - CHI 101 Chinese I, Fall 22 & 23, Syracuse University
+
 Instructor of Record, designed all teaching materials independently
 - CHI 102 Chinese II, Spring 23 & 24, Syracuse University
+
 Instructor of Record, designed all teaching materials independently
 - CHI 104 Elementary Chinese I, Fall 21, University of Kansas
+
 Drill instructor for [Dr. Yan Li](https://ealc.ku.edu/people/yan-li)
 - CHI 108 Elementary Chinese II, Spring 22, University of Kansas
+
 Drill instructor for [Dr. Yan Li](https://ealc.ku.edu/people/yan-li)
