@@ -20,9 +20,9 @@ Teaching Assistant for [Dr. Allard Jongman](https://linguistics.ku.edu/people/al
 - CHI 108 Elementary Chinese II, Spring 22, University of Kansas
   Drill instructor for [Dr. Yan Li](https://ealc.ku.edu/people/yan-li)
 
-*   This is the first list item.
-*   Here's the second list item.
+1. Option one  
+ Second paragraph
 
-    I need to add another paragraph below the second list item.
+2. Option two  
+ Second paragraph
 
-*   And here's the third list item.
