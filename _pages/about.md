@@ -10,4 +10,4 @@ My name is Kevin Zhang, and I am a first-year PhD student in [Communication Scie
 
 Before coming to Northwestern, I received graduate training in linguistics at the [University of Kansas](https://linguistics.ku.edu/) and in language acquisition and disorders at [Syracuse University](https://artsandsciences.syracuse.edu/languages-literatures-and-linguistics/).
 
-*(I am novice to Github, and this site is still in construction. I'm trying to make sure that I understand the mechanism and make things work here.)*
+*(Thank you for visiting my website! I am novice to Github, and this site is still in construction. I'm basically typing things as if I am in MS Word now. So, I'm trying to make sure that I understand the mechanism and make things work here.)*
