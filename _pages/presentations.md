@@ -3,7 +3,7 @@ title: "Talks and presentations"
 permalink: /presentations/
 author_profile: true
 ---
-Zhang, K. Y. (March 2024). Segments, tones, and lexical factors in native Mandarin listeners’ adaptation to English-accented Mandarin. Talk presented at *the 36th North American Conference on Chinese Linguistics*, Claremont, CA.
+Zhang, K. Y. (March 2024). Segments, tones, and lexical factors in native Mandarin listeners’ adaptation to English-accented Mandarin. Talk presented at *the 36th North American Conference on Chinese Linguistics*, Claremont, CA. [Abstract](https://kevinyizhang.github.io/files/Zhang_NACCL36_Abstract.pdf)
 
 Zhang, K. Y. (February 2024). Segments, tones, and lexical factors in native Mandarin listeners’ adaptation to English-accented Mandarin. Talk presented at *the Linguistics Conference at the University of Georgia*, Athens, GA.
 
