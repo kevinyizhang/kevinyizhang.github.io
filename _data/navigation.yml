@@ -19,6 +19,9 @@ main:
         
   #- title: "Blog Posts"
   #  url: /year-archive/
+ 
+  - title: "Resources"
+    url: /resources/
     
   - title: "Guide"
     url: /markdown/
