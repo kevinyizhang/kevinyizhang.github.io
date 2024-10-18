@@ -1,7 +1,7 @@
 ---
 title: "Phonetics and Speech-Hearing Sciences"
 collection: resources
-permalink: /resources/phonetics/
+permalink: /resources/phonetics
 # type: "research_tools"
 # venue: "University 1, Department"
 # date: 2014-01-01
