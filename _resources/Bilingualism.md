@@ -1,7 +1,7 @@
 ---
 title: "Bilingual Language Assessment"
 collection: resources
-permalink: /resources/phonetics
+permalink: /resources/bilingualism
 # type: "research_tools"
 # venue: "University 1, Department"
 # date: 2014-01-01
