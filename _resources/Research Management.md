@@ -1,7 +1,7 @@
 ---
 title: "Research Management Tools"
 collection: resources
-permalink: /resources/research_tools
+permalink: /resources/management
 # type: "research_tools"
 # venue: "University 1, Department"
 # date: 2014-01-01
