@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student, Communication Sciences and Disorders, Northwestern University
+subtitle: 
 
 profile:
   align: right
