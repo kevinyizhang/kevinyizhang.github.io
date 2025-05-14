@@ -1,18 +1,31 @@
 <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top mb-5 shadow-sm">
-    <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
-        <a class="navbar-brand"><strong>{{site.data.profile.navbar_name}}</strong></a>
-        <button class="navbar-toggler" style="font-size: 1em; padding: 0.5em;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-map"></i> Menu
-        </button>
+  <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
+    <a class="navbar-brand"><strong>{{ site.data.profile.navbar_name }}</strong></a>
+    <button class="navbar-toggler" style="font-size: 1em; padding: 0.5em;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-map"></i> Menu
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                {% for item in site.data.navigation.pages %}
-                <li class="nav-item {% if item.name == page.navbar_title %}active{% endif %}">
-                    <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
-                </li>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        {% for item in site.data.navigation.pages %}
+          {% if item.children %}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle {% if item.name == page.navbar_title %}active{% endif %}" href="#" id="navbarDropdown{{ forloop.index }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ item.name }}
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown{{ forloop.index }}">
+                {% for child in item.children %}
+                  <a class="dropdown-item" href="{{ child.url | relative_url }}">{{ child.name }}</a>
                 {% endfor %}
-            </ul>
-        </div>
+              </div>
+            </li>
+          {% else %}
+            <li class="nav-item {% if item.name == page.navbar_title %}active{% endif %}">
+              <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.name }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
     </div>
+  </div>
 </nav>
