@@ -11,3 +11,5 @@ pages:
       url: /presentations
 - name: Teaching
   url: /teaching
+- name: Contact
+  url: /contact
