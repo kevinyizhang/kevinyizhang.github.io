@@ -1,50 +1,64 @@
-primary_name: "Your Name"
+primary_name: "Kevin Yi Zhang"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Kevin Yi Zhang"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+# - logo: /assets/images/badges/NU_Logo.png  # Logo is optional
+  - name: PhD Student in Communication Sciences and Disorders
+# - name: Position 2 without logo
 
 
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
+email: "kyzhang@u.northwestern.edu"
+cv_link: https://docs.google.com/document/d/1UEsMyhbe5bVcFj1yFQM7pyin2Ua3Xk3w4swMfeK7IdU/edit?usp=sharing
+# gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
+# github: your_github_id
+twitter: kevinzhangLing  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
 # linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+orcid: 0009-0001-1416-4327
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I study auditory perceptual learning, focusing on how people learn to perceive and process sounds under different training conditions. 
+    My work centers on speech perception training, such as learning to distinguish non-native speech sounds and better understand unfamiliar foreign accents. 
+    Using behavioral methods and EEG, I investigate the time course of learning and aim to identify the conditions that support learning, as well as the constraints that may limit learning. 
+    I am also interested in the clinical applications of my work, particularly in the treatment of speech sound disorders.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    I work in the Psychoacoustics Lab, supervised by <a href = "https://communication.northwestern.edu/faculty/beverly-a-wright.html" target = "_blank">Dr. Beverly A. Wright</a>. 
+    I am also currently affiliated with the <a href = "https://soundbrainlab.northwestern.edu/" target = "_blank">SoundBrain Lab</a>, where I am working on a rotation project.
+  </p>
+  <p>
+    This website is still under construction...
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/portrait.png
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Photo Credit: Christine Palmer
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: Northwestern University
+  logo: /assets/images/badges/NU_Logo.png
+  position: PhD Student in Communication Sciences and Disorders
+  date: 2024 - present
+  
+- name: Syracuse University
+  logo: /assets/images/badges/SU_Otto_Logo.png
+  position: MA in Language Acquisition
+  date: 2022-2024
+
+- name: University of Kansas
+  logo: /assets/images/badges/KU_Jayhawk_Logo.png
+  position: MA in Linguistics
+  date: 2020-2022
+
+- name: China Foreign Affairs University
+  logo: /assets/images/badges/CFAU_Logo.png
+  position: BA in Translation and Interpreting
+  date: 2016-2020
 
 # experience:
 # - name: Peking University
@@ -53,9 +67,11 @@ education:
 #   date: Sep. 2019 - Jul. 2021
 
 awards:
-- name: Award Name 2
+- name: Northwestern University Cognitive Science Fellowship
+  date: 2024-2025
+- name: Gerlinde Ulm Sanford Award for Outstanding Linguistics MA Student
   date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Gerlinde Ulm Sanford Award for Outstanding Teaching Assistant
+  date: 2024
+- name: Outstanding College Graduate in Beijing
+  date: 2020
