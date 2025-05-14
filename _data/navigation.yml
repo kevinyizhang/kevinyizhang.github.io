@@ -5,6 +5,8 @@ pages:
   url: /
 - name: Research
   children:
+    - name: Overview
+      url: /overview
     - name: Publications
       url: /publications
     - name: Presentations
