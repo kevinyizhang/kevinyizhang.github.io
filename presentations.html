@@ -1,1 +1,20 @@
-# something
+---
+layout: default
+title: Presentations
+navbar_title: Presentations
+container_class: container-xl
+---
+
+<div class="card border-0 shadow-sm bg-white mb-4">
+  <div class="card-body">
+    <h5 class="card-title">Conference Talks</h5>
+    {% include_relative _presentations/talks.html %}
+  </div>
+</div>
+
+<div class="card border-0 shadow-sm bg-white mb-4">
+  <div class="card-body">
+    <h5 class="card-title">Posters</h5>
+    {% include_relative _presentations/posters.html %}
+  </div>
+</div>
