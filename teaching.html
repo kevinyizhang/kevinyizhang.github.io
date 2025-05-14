@@ -1,0 +1,40 @@
+---
+layout: default
+title: Teaching
+navbar_title: Teaching
+container_class: container-xl
+---
+
+<div class="row mb-4">
+  <!-- Current Teaching card: 2/3 width -->
+  <div class="col-md-8">
+    <div class="card border-0 shadow-sm bg-white h-100">
+      <div class="card-body">
+        <h5 class="card-title">Current Teaching</h5>
+        {% include_relative _teaching/current.html %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Office Hours card: 1/3 width -->
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm bg-white h-100">
+      <div class="card-body">
+        <h5 class="card-title">Office Hours</h5>
+        <p>If you would like to meet in person or via Zoom, please sign up below.</p>
+        <a href="https://app.simplymeet.me/kyzhang" class="btn btn-outline-primary btn-sm" target="_blank">
+          Sign Up for Office Hours
+        </a>
+        <p class="mt-2">If the link doesn't work, feel free to email me directly.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Past Teaching card (full width below) -->
+<div class="card border-0 shadow-sm bg-white mb-4">
+  <div class="card-body">
+    <h5 class="card-title">Past Teaching</h5>
+    {% include_relative _teaching/past.html %}
+  </div>
+</div>
